@@ -8,7 +8,7 @@ Chrome extension that provides quick access to search across multiple sites.
 ## Features
 - Automatically captures search queries from popular search engines
 - Provides quick links to search the same query on 66+ other sites
-- Organized by categories (Search, Images, News, Books, etc.)
+- Organized by categories (Academia, Books, Coding, Design, DIY, Fashion, Finance, Food, Government, Health, Jobs, Learning, Local, Movies, Music, News, Shopping, Social, Travel)
 - Clean, minimal interface in a side panel
 
 ## Installation
