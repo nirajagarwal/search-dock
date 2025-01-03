@@ -1,6 +1,3 @@
-
-4. **Create README.md content**
-```markdown
 # Search Dock
 
 Chrome extension that provides quick access to search across multiple sites.
@@ -36,4 +33,3 @@ Chrome extension that provides quick access to search across multiple sites.
 
 ## License
 [MIT License](LICENSE)
-```
