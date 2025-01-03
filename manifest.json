@@ -1,0 +1,45 @@
+{
+    "manifest_version": 3,
+    "name": "Search Dock",
+    "version": "1.0.0",
+    "description": "Quick access to search across multiple sites. Uses your current search query to look on 66 other sites.",
+    "permissions": [
+      "sidePanel",
+      "webNavigation",
+      "storage"
+    ],
+    "host_permissions": [
+      "*://www.google.com/search*",
+      "*://www.bing.com/search*",
+      "*://duckduckgo.com/*",
+      "*://search.brave.com/search*",
+      "*://search.yahoo.com/search*",
+      "*://www.baidu.com/s*",
+      "*://yandex.com/search*",
+      "*://www.ecosia.org/search*",
+      "*://www.qwant.com/*",
+      "*://www.startpage.com/do/search*"
+    ],
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_title": "Open Search Panel"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "author": "your@email.com",
+    "homepage_url": "https://github.com/yourusername/search-panel"
+  }
+  
